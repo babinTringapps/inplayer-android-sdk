@@ -59,11 +59,7 @@ ext {
             retrofitAdapter   : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}"
     ]
 
-    inPlayerSDKDependencies = [
-            dependencyInjection    : "org.koin:koin-android:${koin}",
-            dependencyInjectionCore: "org.koin:koin-core:${koin}",
-            dependencyInjectionJava: "org.koin:koin-java:${koin}"
-    ]
+
 
 
 }
